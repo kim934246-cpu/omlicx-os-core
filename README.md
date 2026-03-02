@@ -3,7 +3,7 @@
 OmlicxOS-Core is the foundation of **OmlexOS**, a custom mobile operating system for the **Google Pixel 3a**.  
 Built on a Linux base with Halium integration, this core includes everything needed to run the OS: drivers, kernel configs, system files, apps, and scripts.  
 
-This project is structured to allow developers to build, modify, and flash OmlexOS onto Pixel 3a devices with ease.
+This project is structured to allow developers to build, modify, and flash OmlicxOS onto Pixel 3a devices with ease.
 
 ---
 
