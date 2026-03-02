@@ -18,4 +18,4 @@ This project is structured to allow developers to build, modify, and flash Omlex
 
 ---
 
-## Folder Structure
+
