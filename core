@@ -1,0 +1,73 @@
+OmlexOS-Core/
+├── README.md
+├── LICENSE
+├── docs/
+│   └── setup_instructions.md
+├── boot/
+│   ├── boot.img            # placeholder for boot image
+│   ├── initrd.img          # placeholder for initrd
+│   └── grub/
+│       └── grub.cfg
+├── kernel/
+│   ├── config/
+│   │   └── pixel3a_defconfig
+│   ├── drivers/
+│   │   ├── audio/
+│   │   │   └── audio_driver.c
+│   │   ├── camera/
+│   │   │   └── camera_driver.c
+│   │   ├── display/
+│   │   │   └── display_driver.c
+│   │   ├── gps/
+│   │   │   └── gps_driver.c
+│   │   ├── sensors/
+│   │   │   └── sensors_driver.c
+│   │   ├── wifi/
+│   │   │   └── wifi_driver.c
+│   │   └── bluetooth/
+│   │       └── bluetooth_driver.c
+│   └── modules/
+│       └── modules_placeholder.txt
+├── system/
+│   ├── bin/
+│   │   └── init
+│   ├── lib/
+│   │   └── libcore.so
+│   ├── etc/
+│   │   ├── fstab
+│   │   ├── init/
+│   │   │   └── init.rc
+│   │   └── omlex.conf
+│   ├── usr/
+│   │   ├── bin/
+│   │   │   └── example_app
+│   │   ├── lib/
+│   │   │   └── libexample.so
+│   │   └── share/
+│   │       └── omlexos/
+│   │           └── readme.txt
+│   └── var/
+│       ├── log/
+│       │   └── system.log
+│       └── tmp/
+├── apps/
+│   ├── launcher/
+│   │   └── launcher.py
+│   ├── messaging/
+│   │   └── messaging.py
+│   ├── dialer/
+│   │   └── dialer.py
+│   ├── workouts/
+│   │   └── workouts.py
+│   └── minimal-tools/
+│       └── tool_example.py
+├── scripts/
+│   ├── build_kernel.sh
+│   ├── flash_device.sh
+│   └── setup_environment.sh
+└── config/
+    ├── device_tree/
+    │   └── pixel3a.dts
+    ├── halium/
+    │   └── halium_pixel3a.cfg
+    └── omlexos_settings.yaml
